@@ -1,0 +1,40 @@
+.Logo{
+  width: 52px;
+  height: 52px;
+  
+  background-image: url("./Logo.svg");
+  background-repeat: no-repeat;
+}
+header{
+  display: flex;
+  gap: 40px; 
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 51px;
+}
+header > a{
+  text-decoration: none;
+  flex-grow: 1;
+}
+header>a>span{
+  
+  color: white;
+  opacity: 0.6;
+  border-bottom: 0px solid white;
+}
+header>a:active header>a>span{
+  opacity: 1;
+  border-bottom: 1px solid gray;
+}
+header>a>span:hover{
+  opacity: 1;
+  border-bottom: 1px solid gray;  
+}
+.logoContainer{
+  flex-grow: 3;
+  display: flex;
+  justify-content: start;
+  margin-right: 20vw;
+}

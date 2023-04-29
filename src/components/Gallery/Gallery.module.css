@@ -1,0 +1,95 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 300px;
+}
+.gallery{
+  width: 1006px;
+  height: 712px;
+  display: grid;
+  grid-template-areas: "A B C"
+      "D E F";
+  margin-top: 120px;
+  justify-items: center;
+  
+}
+.item{
+  width: 242px;
+  height: 306px;
+  background: url("./photos/border.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texts> h1{
+  font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+  
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.02em;
+  
+    color: #FFFFFF;
+}
+.texts>span{
+  display: block;
+  width: 912px;
+
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  
+  /* or 150% */
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  opacity: 0.6;
+
+  margin-top: 17px;
+}
+
+.itemInnerBg1{
+  background: url("./photos/item1.png");
+
+  width: 218.15px;
+  height: 220px;
+}
+.itemInnerBg2{
+  background: url("./photos/item2.png");
+
+  width: 218.15px;
+  height: 220px;
+}
+.itemInnerBg3{
+  background: url("./photos/item3.png");
+
+  width: 218.15px;
+  height: 220px;
+}
+.itemInnerBg4{
+  background: url("./photos/item4.png");
+
+  width: 218.15px;
+  height: 220px;
+}
+.itemInnerBg5{
+  background: url("./photos/item5.png");
+
+  width: 218.15px;
+  height: 220px;
+}
+.itemInnerBg6{
+  background: url("./photos/item6.png");
+
+  width: 218.15px;
+  height: 220px;
+}
