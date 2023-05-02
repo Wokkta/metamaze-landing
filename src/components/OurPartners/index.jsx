@@ -56,6 +56,16 @@ const OurPartners = () => {
       </div>
       <div className={s.runningStr1}>
         {renderPartnerImages([
+          p4,
+          p5,
+          p4,
+          p3,
+          p1,
+          p2,
+          p3,
+          p4,
+          p5,
+          p3,
           p2,
           p3,
           p5,
