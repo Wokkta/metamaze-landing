@@ -1,4 +1,5 @@
 import s from './SectionFour.module.css';
+import p1 from './Arrow 1.png';
 function SectionFour() {
   return (
     <div className={s.container}>
@@ -19,7 +20,7 @@ function SectionFour() {
         <button className={s.btn1}>
           <span>Read More</span>
 
-          <img src="src\components\SectionFour\Arrow 1.png" alt="arrow" className={s.arrow} />
+          <img src={p1} alt="arrow" className={s.arrow} />
         </button>
       </div>
     </div>
