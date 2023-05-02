@@ -112,6 +112,15 @@ img{
   width: 828px;
   height: 490px; 
 }
+.bg{
+  width: 828px;
+  height: 490px;
+  background: url("./img1.png");
+  background-position: center;
+  box-shadow: 25px 25px 80px 6px rgba(107, 7, 198, 0.2);
+  border-radius: 60px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 .donats{
   height: 195px;
   width: 195px;

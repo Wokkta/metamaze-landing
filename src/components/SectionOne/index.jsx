@@ -14,7 +14,7 @@ function SectionOne() {
         </a>
       </div>
       <div className={s.imgs}>
-        <img src="src\components\SectionOne\img1.png" alt="bg image" />
+        <div className={s.bg}></div>
         <div className={s.donats}></div>
         <div className={s.donats}></div>
       </div>

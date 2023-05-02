@@ -12,11 +12,13 @@ function SectionFour() {
         <button className={s.btn}>explore more</button>
       </div>
       <div className={s.item}>
-        <img src="src\components\SectionFour\itempic.png" alt="random photo" />
+        <div className={s.bgI}></div>
+
         <h2>Embracing BlockChain for Metaverse</h2>
         <span>Hey everyone. Ayan Bradmani here, CEO of ARxian. I wanted to...</span>
         <button className={s.btn1}>
           <span>Read More</span>
+
           <img src="src\components\SectionFour\Arrow 1.png" alt="arrow" className={s.arrow} />
         </button>
       </div>
