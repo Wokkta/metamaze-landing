@@ -14,7 +14,7 @@ Getting Started
 
 To get started with the MetaMaze Landing project, follow these steps:
 
-    Clone the repository: [git clone [repository_url]](https://github.com/Wokkta/metamaze-landing.git).
+    Clone the repository: git clone https://github.com/Wokkta/metamaze-landing.git.
     Install the project dependencies: npm install.
     Start the development server: npm run dev.
     Open your web browser and visit http://localhost:3000 to see the landing page.
